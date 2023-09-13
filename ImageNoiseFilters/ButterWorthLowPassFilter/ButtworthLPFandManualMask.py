@@ -1,3 +1,7 @@
+"""
+This program applies the Butterworth Low Pass Filter as well as manual removal of periodic noise found in the Fourier Transform.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
