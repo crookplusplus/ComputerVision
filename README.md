@@ -36,39 +36,43 @@ Find the source code <a href="./ImageNoiseFilters/ButterworthLPF/ButterworthLPF.
 <br>&nbsp;&nbsp;This program implements a Butterworth Lowpass Filter with no additional masks applied.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="10px;" align="center">
-        <figurealign="center">
+    <div style="margin: 10px; text-align: center;">
+        <figure>
             <a href="./ImageNoiseFilters/ButterworthLPF/Lena.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/Lena.jpg" alt="Original Image" width="150">
-            </a><br>
+            </a>
             <figcaption>Original Image with Noise</figcaption>
         </figure>
     </div>
-    <div style="10px;" align="center">
-        <figure align="center">
+    <div style="margin: 10px; text-align: center;">
+        <figure>
             <a href="./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg" alt="FFT prefilter" width="150">
-            </a><br>
+            </a>
             <figcaption>Fourier Transform before filter</figcaption>
         </figure>
     </div>
-    <div style="10px;" align="center">
-        <figure align="center">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <div style="margin: 10px; text-align: center;">
+        <figure>
             <a href="./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg" width="150">
-            </a><br>
+            </a>
             <figcaption>Fourier Transformation after filter</figcaption>
         </figure>
     </div>
-    <div style="10px;" align="center">
-        <figure align="center">
+    <div style="margin: 10px; text-align: center;">
+        <figure>
             <a href="./ImageNoiseFilters/ButterworthLPF/Output.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/Output.jpg" width="150">
-            </a><br>
+            </a>
             <figcaption>Final Result</figcaption>
-        <figure>
+        </figure>
     </div>
 </div>
+
 
 
 ### B) **Butterworth Lowpass Filter with Manual Mask**
