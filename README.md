@@ -37,34 +37,34 @@ Find the source code <a href="./ImageNoiseFilters/ButterworthLPF/ButterworthLPF.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <div style="10px;" align="center">
-        <figure>
+        <figurealign="center">
             <a href="./ImageNoiseFilters/ButterworthLPF/Lena.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/Lena.jpg" alt="Original Image" width="150">
-            </a>
+            </a><br>
             <figcaption>Original Image with Noise</figcaption>
         </figure>
     </div>
     <div style="10px;" align="center">
-        <figure>
+        <figure align="center">
             <a href="./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg" alt="FFT prefilter" width="150">
-            </a>
+            </a><br>
             <figcaption>Fourier Transform before filter</figcaption>
         </figure>
     </div>
     <div style="10px;" align="center">
-        <figure >
+        <figure align="center">
             <a href="./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg" width="150">
-            </a>
+            </a><br>
             <figcaption>Fourier Transformation after filter</figcaption>
         </figure>
     </div>
     <div style="10px;" align="center">
-        <figure >
+        <figure align="center">
             <a href="./ImageNoiseFilters/ButterworthLPF/Output.jpg" target="_blank">
                 <img src="./ImageNoiseFilters/ButterworthLPF/Output.jpg" width="150">
-            </a>
+            </a><br>
             <figcaption>Final Result</figcaption>
         <figure>
     </div>
