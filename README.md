@@ -35,43 +35,24 @@ The Butterworth Lowpasss Filter is used when an image has high frequency sinusoi
 Find the source code <a href="./ImageNoiseFilters/ButterworthLPF/ButterworthLPF.py">here</a>!  
 <br>&nbsp;&nbsp;This program implements a Butterworth Lowpass Filter with no additional masks applied.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="margin: 10px; text-align: center;">
-        <figure>
-            <a href="./ImageNoiseFilters/ButterworthLPF/Lena.jpg" target="_blank">
-                <img src="./ImageNoiseFilters/ButterworthLPF/Lena.jpg" alt="Original Image" width="150">
-            </a>
-            <figcaption>Original Image with Noise</figcaption>
-        </figure>
-    </div>
-    <div style="margin: 10px; text-align: center;">
-        <figure>
-            <a href="./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg" target="_blank">
-                <img src="./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg" alt="FFT prefilter" width="150">
-            </a>
-            <figcaption>Fourier Transform before filter</figcaption>
-        </figure>
-    </div>
-</div>
+| Original Photo with Noise          | Fourier Transform with Noise        |
+| ---------------------------------- | ----------------------------------- |
+| [![Original Image][img1]][link1]   | [![Image 2][img2]][link2]           |
+|          |     |
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="margin: 10px; text-align: center;">
-        <figure>
-            <a href="./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg" target="_blank">
-                <img src="./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg" width="150">
-            </a>
-            <figcaption>Fourier Transformation after filter</figcaption>
-        </figure>
-    </div>
-    <div style="margin: 10px; text-align: center;">
-        <figure>
-            <a href="./ImageNoiseFilters/ButterworthLPF/Output.jpg" target="_blank">
-                <img src="./ImageNoiseFilters/ButterworthLPF/Output.jpg" width="150">
-            </a>
-            <figcaption>Final Result</figcaption>
-        </figure>
-    </div>
-</div>
+| Fourier Transform after filter      | Image after Filter                  |
+| ----------------------------------  | ----------------------------------- |
+| [![Image 3][img3]][link3]           | [![Image 4][img4]][link4]           |
+| Fourier Transformation after filter | Final Result                        |
+
+[img1]: ./ImageNoiseFilters/ButterworthLPF/Lena.jpg
+[link1]: ./ImageNoiseFilters/ButterworthLPF/Lena.jpg
+[img2]: ./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg
+[link2]: ./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg
+[img3]: ./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg
+[link3]: ./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg
+[img4]: ./ImageNoiseFilters/ButterworthLPF/Output.jpg
+[link4]: ./ImageNoiseFilters/ButterworthLPF/Output.jpg
 
 
 
