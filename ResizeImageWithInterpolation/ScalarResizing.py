@@ -23,8 +23,6 @@ def resize(img, scalar):
 
             x1 = max(min(math.floor(x), width-1), 0)
             y1 = max(min(math.floor(y), width-1), 0)
-            x2 = max(min(math.ceil(x), width-1), 0)
-            y2 = max(min(math.ceil(y), width-1), 0)
 
             one = image[y1,x1]
             two = image[y1,x1]
