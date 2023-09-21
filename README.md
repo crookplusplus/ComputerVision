@@ -48,8 +48,8 @@ Find the source code <a href="./ImageNoiseFilters/ButterworthLPF/ButterworthLPF.
 
 [img1]: ./ImageNoiseFilters/ButterworthLPF/Lena.jpg
 [link1]: ./ImageNoiseFilters/ButterworthLPF/Lena.jpg
-[img2]: ./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg
-[link2]: ./ImageNoiseFilters/ButterworthLPF/noiseyFFt.jpg
+[img2]: ./ImageNoiseFilters/ButterworthLPF/noisyFFt.jpg
+[link2]: ./ImageNoiseFilters/ButterworthLPF/noisyFFt.jpg
 [img3]: ./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg
 [link3]: ./ImageNoiseFilters/ButterworthLPF/FilteredFFT.jpg
 [img4]: ./ImageNoiseFilters/ButterworthLPF/Output.jpg
