@@ -103,14 +103,14 @@ Find the source code <a href="./ResizeImageWithInterpolation/ScalarResizing.py">
         <img src="./ResizeImageWithInterpolation/chickenTractor.jpg" alt="Original Image">
     </a><br>
     <figcaption>Original Image Size</figcaption>
-</figure>
+</figure><br>
 
 <figure align="center">
     <a href="./ResizeImageWithInterpolation/Chickenk3.jpg">
         <img src="./ResizeImageWithInterpolation/Chickenk3.jpg">
     </a><br>
     <figcaption>Resized Image</figcaption>
-</figure>
+</figure><br>
 
 &nbsp;&nbsp; The outcome is an image that has been expanded to three times its original size, both in terms of height and width. As a consequence of this enlargement and the estimation of new pixel values, a reduction in resolution can be anticipated.
 
